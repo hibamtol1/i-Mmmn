@@ -38,4 +38,4 @@
   > 
   > 구글 OAuth 생성시 승인된 리디렉션 URI에 "https://apexea.oracle.com/pls/apex/apex_authentication.callback" 가 아니라 apexea 대신 apex로 작성했더니 오류 해결됨
 
-- 구글 OAuth 생성 후 credential 생성하고 social login에는 성공하였으나 이때 로그인 페이지로 연동해두면 앱 실행하자마자 구글 로그인 페이지로 리디렉션되기 때문에 로그인 화면에서 구글 로그인용 버튼을 하나 두고 페이지 하나 추가하여 추가된 페이지로 구글 로그인 리디렉션되도록 변경함
+- 구글 OAuth 생성 후 credential 생성하고 social login에는 성공하였으나 이때 로그인 페이지로 연동해두면 앱 실행하자마자 구글 로그인 페이지로 리디렉션되기 때문에 로그인 화면에서 구글 로그인용 버튼을 하나 두고 페이지 하나 추가하여 추가된 페이지로 구글 로그인 리디렉션되도록 변경 예정
