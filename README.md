@@ -54,3 +54,4 @@
 
 - 로그아웃 해결: APP > Shared Components > Authentication Schemes > Post-Logout URL 부분이 Home Page와 URL을 수정하다보니 깨진 것 같다는 추측으로 URL 선택 후 로그인 페이지(f?p=&APP_ID.:9999) URL을 입력하여 해결
 - 앱 시작하자마자 구글 로그인 뜨는 이슈는 앱 시작 URL을 로그인 화면으로 변경하는 것으로 해결 예정(방법 찾는 중)
+- Google 계정으로 계속하기 버튼에 Dynamic Action 추가. 캐시로 아이디, 비밀번호 입력되어있는 내용으로 로그인이 되어, 해당 아이템 값이 있는 경우 clear 후 submit page 되도록 처리.
