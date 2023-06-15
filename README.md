@@ -71,4 +71,6 @@
 - 테이블 변경사항(I_MOVIE)
   > 컬럼 변경 CINEMA -> PLACE
   >
-  > 컬럼 PLACE_DETAIL 추가
+  > 컬럼 NOTE 추가
+  >
+  > 테이블 수정에 따른 UI 및 Query 변경
