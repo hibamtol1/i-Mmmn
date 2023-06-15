@@ -63,3 +63,8 @@
   > 유저 데이터이기 때문에 안정성부터 고려할 것
   >
   > 트리거로 선택하면 I_USER 테이블에 구글 계정 여부에 대한 컬럼 추가할 것
+
+<h3>23.06.15.</h3>
+
+- 영화 관련 오픈 API 발견 https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do
+- 영화 페이지에 들어갔을 때, 모바일 특성상 심플해야할 것 같아서 보여주는 컬럼 변경(축소)
