@@ -68,3 +68,7 @@
 
 - 영화 관련 오픈 API 발견 https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do
 - 영화 페이지에 들어갔을 때, 모바일 특성상 심플해야할 것 같아서 보여주는 컬럼 변경(축소)
+- 테이블 변경사항(I_MOVIE)
+  > 컬럼 변경 CINEMA -> PLACE
+  >
+  > 컬럼 PLACE_DETAIL 추가
