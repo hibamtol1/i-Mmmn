@@ -29,12 +29,12 @@
 
 - css 적용 방식 변경: 내부 스타일시트(APEX Custom Css) -> 외부 스타일시트(Static Application Files내 파일 하나로 통합 관리)
 - 구글 로그인 추가
-* 구글 OAuth2 등록 https://www.joinc.co.kr/w/man/12/oAuth2/Google
-* Oracle APEX에서 적용 https://doyensys.com/blogs/apex-login-using-google-social-sign-in/
+ * 구글 OAuth2 등록 https://www.joinc.co.kr/w/man/12/oAuth2/Google
+ * Oracle APEX에서 적용 https://doyensys.com/blogs/apex-login-using-google-social-sign-in/
 
 - 구글 OAuth 생성 관련 시행착오
-* 구글 OAuth 생성시 "승인된 자바스크립트 출처" 부분의 URI는 생략해야함
-* 구글 OAuth 생성시 승인된 리디렉션 URI에 "https://apexea.oracle.com/pls/apex/apex_authentication.callback" 가 아니라 apexea 대신 apex로 작성했더니 오류 해결됨
+ * 구글 OAuth 생성시 "승인된 자바스크립트 출처" 부분의 URI는 생략해야함
+ * 구글 OAuth 생성시 승인된 리디렉션 URI에 "https://apexea.oracle.com/pls/apex/apex_authentication.callback" 가 아니라 apexea 대신 apex로 작성했더니 오류 해결됨
 
 <h3>23.06.09.</h3>
 
@@ -45,7 +45,7 @@
 <h3>23.06.12.</h3>
 
 - 오류 발견: 로그아웃이 안됨. 로그인 리디렉션 오류 해결을 위해서 수정 중에 로그인/로그아웃 관련 앱 세팅이 깨진 것으로 추측 
-* 로그아웃을 할 때, 구글 로그아웃이 되도록 하면 안됨. 브라우저 자체의 구글이 로그아웃되어버림. 모바일 앱으로 개발 예정이기 때문에 로그인 세션 유지는 최대한 오래되어야 함. 자동 로그아웃을 빈번하게 의도할 필요없다고 판단
+ * 로그아웃을 할 때, 구글 로그아웃이 되도록 하면 안됨. 브라우저 자체의 구글이 로그아웃되어버림. 모바일 앱으로 개발 예정이기 때문에 로그인 세션 유지는 최대한 오래되어야 함. 자동 로그아웃을 빈번하게 의도할 필요없다고 판단
 
 
 <h3>23.06.13.</h3>
@@ -58,17 +58,17 @@
 
 - 구글 로그인 계정으로 영화 데이터 추가시 I_MOVIE 테이블에는 정상적으로 데이터가 들어가며, USER_ID에는 구글 계정의 name이 들어가는 것 확인
 - 대신 구글 로그인 계정은 I_USER 테이블에 데이터가 없음 -> I_USER 테이블에 데이터가 없는 로그인 정보로 메인화면 접근시 I_USER에 회원가입 정보를 트리거로 넣을지, 구글 계정의 회원가입 정보를 따로 연동할 수 있는지 확인 후 더 이슈없을 방법으로 선택할 예정
-* 유저 데이터이기 때문에 안정성부터 고려할 것
-* 트리거로 선택하면 I_USER 테이블에 구글 계정 여부에 대한 컬럼 추가할 것
+ * 유저 데이터이기 때문에 안정성부터 고려할 것
+ * 트리거로 선택하면 I_USER 테이블에 구글 계정 여부에 대한 컬럼 추가할 것
 
 <h3>23.06.15.</h3>
 
 - 영화 관련 오픈 API 발견 https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do
 - 영화 페이지에 들어갔을 때, 모바일 특성상 심플해야할 것 같아서 보여주는 컬럼 변경(축소)
 - 테이블 변경사항(I_MOVIE)
-* 컬럼 변경 CINEMA -> PLACE
-* 컬럼 NOTE 추가
-* 테이블 수정에 따른 UI 및 Query 변경
+ * 컬럼 변경 CINEMA -> PLACE
+ * 컬럼 NOTE 추가
+ * 테이블 수정에 따른 UI 및 Query 변경
 
 - 영화 추가 팝업 Drawer에서 Wizard Modal Dialog로 변경
 - 팝업 내 입력창들 길이 줄여서 스크롤 생기지 않고 한 눈에 모두 들어올 수 있도록 변경할 것
