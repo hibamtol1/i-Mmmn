@@ -89,3 +89,4 @@
 <h3>23.06.18.</h3>
 
 - 계정이 막히는 현상을 계속 해결하지 못해서 결국 챗GPT와 대화까지 했는데, 권한 문제라는 심증이 생김. Oracle APEX의 워크스페이스 하나만 발급받는 것이 아니라 DBA 권한이 있는, DB부터 발급받아야 할 것 같아서 시도 중.
+ * OCI 계정 생성 https://team-okitoki.github.io/getting-started/free-oci-promotions/#%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EC%97%90-%EC%82%AC%EC%9D%B8%EC%9D%B8-%ED%95%98%EA%B8%B0
