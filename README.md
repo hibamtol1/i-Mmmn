@@ -100,4 +100,6 @@
 
 - instance 생성 -> Launch APEX 로 Admin(internal 접근 성공)
 - Workspace(im) 생성 완료
-- 개별 워크스페이스에서 작업 중이던 immmn 앱 수동으로 필요한 사항들만 im으로 이전
+- i'Mmmn 앱 다시 개발
+   * 앱 생성: 기본 제공 옵션들 모두 추가, 테스트 예정
+   * css 파일 생성 및 적용 완료
