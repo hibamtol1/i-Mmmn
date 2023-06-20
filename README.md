@@ -93,7 +93,11 @@
  * OCI 주소 https://signup.cloud.oracle.com/
 
 <h3>23.06.19.</h3>
+
 - OCI Autonomous DB 생성 완료(APEX)
   
 <h3>23.06.20.</h3>
+
 - instance 생성 -> Launch APEX 로 Admin(internal 접근 성공)
+- Workspace(im) 생성 완료
+- 개별 워크스페이스에서 작업 중이던 immmn 앱 수동으로 필요한 사항들만 im으로 이전
