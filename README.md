@@ -103,3 +103,7 @@
 - i'Mmmn 앱 다시 개발
    * 앱 생성: 기본 제공 옵션들 모두 추가, 테스트 예정
    * css 파일 생성 및 적용 완료
+
+<h3>23.06.21.</h3>
+
+- DB로 로그인은 Authenticate Scheme을 Custom으로 두고 함수로 로그인하는 구조로 해결 예정: https://blogs.ontoorsolutions.com/post/custom-authentication-oracle-apex/
