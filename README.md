@@ -107,3 +107,7 @@
 <h3>23.06.21.</h3>
 
 - DB로 로그인은 Authenticate Scheme을 Custom으로 두고 함수로 로그인하는 구조로 해결 예정: https://blogs.ontoorsolutions.com/post/custom-authentication-oracle-apex/
+
+<h3>23.06.22.</h3>
+
+- 영화 목록/추가 페이지 각각 생성
