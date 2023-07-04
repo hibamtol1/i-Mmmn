@@ -161,5 +161,8 @@
      * 해당 서치바가 포함된 interactive report의 attribute에서 Search button Label에 입력
    - 검색 버튼 css 수정: class가 a-Button a-IRR-button a-IRR-button--search으로 되어있어서 사이 공백 없애고 .으로 연결
   </details>
-  
+  <details><summary><h3>23.07.04.</h3></summary>
+ 
+ - 버튼명 변경
+</details>
 </details>
