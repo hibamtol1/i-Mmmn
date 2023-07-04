@@ -164,5 +164,6 @@
   <details><summary><h3>23.07.04.</h3></summary>
  
  - 버튼명 변경
+ - css 추가: Static ID 주고 css 파일 적용시 동작하지 않음. 확인 필요.
 </details>
 </details>
