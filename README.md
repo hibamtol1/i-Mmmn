@@ -162,8 +162,12 @@
    - 검색 버튼 css 수정: class가 a-Button a-IRR-button a-IRR-button--search으로 되어있어서 사이 공백 없애고 .으로 연결
   </details>
   <details><summary><h3>23.07.04.</h3></summary>
- 
- - 버튼명 변경
- - css 추가: Static ID 주고 css 파일 적용시 동작하지 않음. 확인 필요.
-</details>
+  
+  - 버튼명 변경
+  - css 추가: Static ID 주고 css 파일 적용시 동작하지 않음. 확인 필요.
+  </details>
+  <details><summary><h3>23.07.05.</h3></summary>
+  
+  - 네이버 뉴스 API 서비스 중단되었다고 함. 확인 필요.
+  </details>
 </details>
