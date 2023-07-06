@@ -170,4 +170,9 @@
   
   - 네이버 뉴스 API 서비스 중단되었다고 함. 확인 필요.
   </details>
+  <details><summary><h3>23.07.06.</h3></summary>
+
+  - 영화 추가 버튼 css 수정 완료.
+    * Static ID는 ID로 css 줄 때 #으로 작성. class는 .으로 작성.
+  </details>
 </details>
