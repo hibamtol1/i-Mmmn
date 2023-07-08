@@ -175,6 +175,6 @@
   - 영화 추가 버튼 css 수정 완료.
     * Static ID는 ID로 css 줄 때 #으로 작성. class는 .으로 작성.
   - 추가 버튼 텍스트를 아이콘으로 변경. Universal Theme에서 Floating Button 찾아서 대체할 예정.
-    * https://apex.oracle.com/pls/apex/r/apex_pm/ut/getting-started
+    * Dracle APEX Universal Theme: https://apex.oracle.com/pls/apex/r/apex_pm/ut/getting-started
   </details>
 </details>
